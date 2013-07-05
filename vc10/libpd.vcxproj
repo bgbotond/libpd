@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libpd_wrapper\s_libpdmidi.c" />
+    <ClCompile Include="..\libpd_wrapper\util\ringbuffer.c" />
+    <ClCompile Include="..\libpd_wrapper\util\z_hook_util.c" />
+    <ClCompile Include="..\libpd_wrapper\util\z_print_util.c" />
+    <ClCompile Include="..\libpd_wrapper\util\z_queued.c" />
+    <ClCompile Include="..\libpd_wrapper\x_libpdreceive.c" />
+    <ClCompile Include="..\libpd_wrapper\z_libpd.c" />
+    <ClCompile Include="..\pure-data\src\d_arithmetic.c" />
+    <ClCompile Include="..\pure-data\src\d_array.c" />
+    <ClCompile Include="..\pure-data\src\d_ctl.c" />
+    <ClCompile Include="..\pure-data\src\d_dac.c" />
+    <ClCompile Include="..\pure-data\src\d_delay.c" />
+    <ClCompile Include="..\pure-data\src\d_fft.c" />
+    <ClCompile Include="..\pure-data\src\d_fftroutine.c" />
+    <ClCompile Include="..\pure-data\src\d_fft_mayer.c" />
+    <ClCompile Include="..\pure-data\src\d_filter.c" />
+    <ClCompile Include="..\pure-data\src\d_global.c" />
+    <ClCompile Include="..\pure-data\src\d_math.c" />
+    <ClCompile Include="..\pure-data\src\d_misc.c" />
+    <ClCompile Include="..\pure-data\src\d_osc.c" />
+    <ClCompile Include="..\pure-data\src\d_resample.c" />
+    <ClCompile Include="..\pure-data\src\d_soundfile.c" />
+    <ClCompile Include="..\pure-data\src\d_ugen.c" />
+    <ClCompile Include="..\pure-data\src\g_all_guis.c" />
+    <ClCompile Include="..\pure-data\src\g_array.c" />
+    <ClCompile Include="..\pure-data\src\g_bang.c" />
+    <ClCompile Include="..\pure-data\src\g_canvas.c" />
+    <ClCompile Include="..\pure-data\src\g_editor.c" />
+    <ClCompile Include="..\pure-data\src\g_graph.c" />
+    <ClCompile Include="..\pure-data\src\g_guiconnect.c" />
+    <ClCompile Include="..\pure-data\src\g_hdial.c" />
+    <ClCompile Include="..\pure-data\src\g_hslider.c" />
+    <ClCompile Include="..\pure-data\src\g_io.c" />
+    <ClCompile Include="..\pure-data\src\g_mycanvas.c" />
+    <ClCompile Include="..\pure-data\src\g_numbox.c" />
+    <ClCompile Include="..\pure-data\src\g_readwrite.c" />
+    <ClCompile Include="..\pure-data\src\g_rtext.c" />
+    <ClCompile Include="..\pure-data\src\g_scalar.c" />
+    <ClCompile Include="..\pure-data\src\g_template.c" />
+    <ClCompile Include="..\pure-data\src\g_text.c" />
+    <ClCompile Include="..\pure-data\src\g_toggle.c" />
+    <ClCompile Include="..\pure-data\src\g_traversal.c" />
+    <ClCompile Include="..\pure-data\src\g_vdial.c" />
+    <ClCompile Include="..\pure-data\src\g_vslider.c" />
+    <ClCompile Include="..\pure-data\src\g_vumeter.c" />
+    <ClCompile Include="..\pure-data\src\m_atom.c" />
+    <ClCompile Include="..\pure-data\src\m_binbuf.c" />
+    <ClCompile Include="..\pure-data\src\m_class.c" />
+    <ClCompile Include="..\pure-data\src\m_conf.c" />
+    <ClCompile Include="..\pure-data\src\m_glob.c" />
+    <ClCompile Include="..\pure-data\src\m_memory.c" />
+    <ClCompile Include="..\pure-data\src\m_obj.c" />
+    <ClCompile Include="..\pure-data\src\m_pd.c" />
+    <ClCompile Include="..\pure-data\src\m_sched.c" />
+    <ClCompile Include="..\pure-data\src\s_audio.c" />
+    <ClCompile Include="..\pure-data\src\s_audio_dummy.c" />
+    <ClCompile Include="..\pure-data\src\s_file.c" />
+    <ClCompile Include="..\pure-data\src\s_inter.c" />
+    <ClCompile Include="..\pure-data\src\s_loader.c" />
+    <ClCompile Include="..\pure-data\src\s_main.c" />
+    <ClCompile Include="..\pure-data\src\s_path.c" />
+    <ClCompile Include="..\pure-data\src\s_print.c" />
+    <ClCompile Include="..\pure-data\src\s_utf8.c" />
+    <ClCompile Include="..\pure-data\src\x_acoustics.c" />
+    <ClCompile Include="..\pure-data\src\x_arithmetic.c" />
+    <ClCompile Include="..\pure-data\src\x_connective.c" />
+    <ClCompile Include="..\pure-data\src\x_gui.c" />
+    <ClCompile Include="..\pure-data\src\x_interface.c" />
+    <ClCompile Include="..\pure-data\src\x_list.c" />
+    <ClCompile Include="..\pure-data\src\x_midi.c" />
+    <ClCompile Include="..\pure-data\src\x_misc.c" />
+    <ClCompile Include="..\pure-data\src\x_net.c" />
+    <ClCompile Include="..\pure-data\src\x_qlist.c" />
+    <ClCompile Include="..\pure-data\src\x_time.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libpd_wrapper\util\ringbuffer.h" />
+    <ClInclude Include="..\libpd_wrapper\util\z_hook_util.h" />
+    <ClInclude Include="..\libpd_wrapper\util\z_print_util.h" />
+    <ClInclude Include="..\libpd_wrapper\util\z_queued.h" />
+    <ClInclude Include="..\libpd_wrapper\x_libpdreceive.h" />
+    <ClInclude Include="..\libpd_wrapper\z_libpd.h" />
+    <ClInclude Include="..\pthread\pthread.h" />
+    <ClInclude Include="..\pthread\sched.h" />
+    <ClInclude Include="..\pthread\semaphore.h" />
+    <ClInclude Include="..\pure-data\src\g_all_guis.h" />
+    <ClInclude Include="..\pure-data\src\g_canvas.h" />
+    <ClInclude Include="..\pure-data\src\m_imp.h" />
+    <ClInclude Include="..\pure-data\src\m_pd.h" />
+    <ClInclude Include="..\pure-data\src\s_stuff.h" />
+    <ClInclude Include="..\pure-data\src\s_utf8.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27257FEF-9BF1-4F0B-9AF5-EB38E9B5E8EF}</ProjectGuid>
+    <RootNamespace>quickTime</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\pure-data\src;..\libpd_wrapper;..\libpd_wrapper\util;..\pthread</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HAVE_LIBDL PD;USEAPI_DUMMY;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>cinder_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\cinder_0.8.5\lib;..\..\..\cinder_0.8.5\lib\msw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\pure-data\src;..\libpd_wrapper;..\libpd_wrapper\util;..\pthread</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HAVE_LIBDL PD;USEAPI_DUMMY;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>cinder.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\cinder_0.8.5\lib;..\..\..\cinder_0.8.5\lib\msw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>$(TargetDir)$(TargetName).pgd</ProfileGuidedDatabase>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
