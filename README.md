@@ -1,4 +1,4 @@
 libpd
 =====
 
-libpd for windows
+libpd for Windows
